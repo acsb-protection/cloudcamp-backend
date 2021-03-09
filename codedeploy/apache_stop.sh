@@ -1,6 +1,6 @@
 #!/bin/bash
  
-#Stop no servidor web apache2
+#Stop no servidor web apache2 - backend prot
 a2enmod headers
 service apache2 stop
 if [ ! -d '/var/www/cloudcamp-backend' ]
